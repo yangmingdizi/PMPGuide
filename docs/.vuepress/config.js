@@ -21,6 +21,7 @@ module.exports = {
             items:[
                 { text:'引论' , link:'/ch1-引论.md'},
                 { text:'项目运行环境' , link:'/ch2-项目运行环境.md'},
+                { text:'项目经理的角色' , link:'/ch3-项目经理的角色.md'},
             ]
         }
      ],
