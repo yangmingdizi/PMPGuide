@@ -1,0 +1,17 @@
+{
+  "name": "PMPGuide",
+  "version": "1.0.0",
+  "description": "Pmp basic knowledge.",
+  "main": "index.js",
+  "repository": "https://github.com/YXGuang/PMPGuide.git",
+  "author": "18883138206@163.com",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
