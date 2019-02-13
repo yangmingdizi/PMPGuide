@@ -1,5 +1,5 @@
 module.exports = {
-
+ base:'/PMPGuide/',
  //站点基本信息
  title: 'Pmp basic knowledge.',
  description: '<PMPBOK> 6.0 basic knowledge.',
@@ -8,7 +8,6 @@ module.exports = {
  ],
  host: '0.0.0.0',
  port: '8888',
- dest: '.vuepress/dist',
  ga: undefined,
  locales:undefined,
  
@@ -31,6 +30,26 @@ module.exports = {
      search:true,
      searchMaxSuggestions: 10,
      //最后更新时间
-     lastUpdated:'Last Updated'
+     lastUpdated:'Last Updated',
+     serviceWorker: {
+        updatePopup: true // Boolean | Object, 默认值是 undefined.
+        // 如果设置为 true, 默认的文本配置将是: 
+        // updatePopup: { 
+        //    message: "New content is available.", 
+        //    buttonText: "Refresh" 
+        // }
+      },
+    // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+    repo: 'YXGuang/PMPGuide',
+    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+    repoLabel: '查看源码',
+    // 假如文档不是放在仓库的根目录下：
+    docsDir: 'docs',
+ },
+
+ //markdown 配置
+ markdown:{
+     lineNumbers: true
  }
 }
