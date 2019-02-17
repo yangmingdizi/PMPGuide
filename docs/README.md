@@ -15,6 +15,10 @@ footer: MIT Licensed | Copyright © 2018-present yxguang
 
 # PMBok 学习笔记
 
+----------------------
+
+项目地址[yxguang.github.io/PMPGuide](https://yxguang.github.io/PMPGuide/)
+
 [[TOC]]
 
 ## [引论](/ch1-引论.md)
