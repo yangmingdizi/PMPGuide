@@ -20,3 +20,7 @@ footer: MIT Licensed | Copyright © 2018-present yxguang
 ## [引论](/ch1-引论.md)
 
 ## [项目运行环境](/ch2-项目运行环境.md)
+
+## [项目经理的角色](/ch3-项目经理的角色.md)
+
+## [项目整合管理](/ch4-项目整合管理.md)
