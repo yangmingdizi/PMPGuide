@@ -19,8 +19,6 @@ footer: MIT Licensed | Copyright © 2018-present yxguang
 
 项目地址[yxguang.github.io/PMPGuide](https://yxguang.github.io/PMPGuide/)
 
-[[TOC]]
-
 ## [引论](/ch1-引论.md)
 
 ## [项目运行环境](/ch2-项目运行环境.md)

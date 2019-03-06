@@ -5,12 +5,22 @@ module.exports = {
  description: '<PMPBOK> 6.0 basic knowledge.',
  head: [
     ['link',{rel:'icon',href: '/img/icon.png'}],
+    //引入fancybox
+    ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
+    ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
+    ['link', { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css' }]
  ],
  host: '0.0.0.0',
  port: '8888',
  ga: undefined,
  locales:undefined,
- 
+ configureWebpack:{
+    resolve:{
+        alias:{
+            '@img':'public/img'
+        }
+    }
+ },
  //默认主题配置
  themeConfig:{
      //导航栏
@@ -22,6 +32,7 @@ module.exports = {
                 { text:'引论' , link:'/ch1-引论.md'},
                 { text:'项目运行环境' , link:'/ch2-项目运行环境.md'},
                 { text:'项目经理的角色' , link:'/ch3-项目经理的角色.md'},
+                { text:'项目整合管理' , link:'/ch4-项目整合管理.md'},
             ]
         }
      ],
