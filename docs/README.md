@@ -19,8 +19,6 @@ footer: MIT Licensed | Copyright © 2018-present yxguang
 
 项目地址[yxguang.github.io/PMPGuide](https://yxguang.github.io/PMPGuide/)
 
-[[TOC]]
-
 ## [引论](/ch1-引论.md)
 
 ## [项目运行环境](/ch2-项目运行环境.md)
@@ -28,3 +26,5 @@ footer: MIT Licensed | Copyright © 2018-present yxguang
 ## [项目经理的角色](/ch3-项目经理的角色.md)
 
 ## [项目整合管理](/ch4-项目整合管理.md)
+
+## [项目范围管理](/ch5-项目范围管理.md)
