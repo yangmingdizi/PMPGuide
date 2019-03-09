@@ -28,3 +28,5 @@ footer: MIT Licensed | Copyright © 2018-present yxguang
 ## [项目整合管理](/ch4-项目整合管理.md)
 
 ## [项目范围管理](/ch5-项目范围管理.md)
+
+## [项目进度管理](/ch6-项目进度管理.md)

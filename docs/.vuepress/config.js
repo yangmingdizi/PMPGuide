@@ -28,6 +28,7 @@ module.exports = {
                 { text:'项目经理的角色' , link:'/ch3-项目经理的角色.md'},
                 { text:'项目整合管理' , link:'/ch4-项目整合管理.md'},
                 { text:'项目范围管理' , link:'/ch5-项目范围管理.md'},
+                { text:'项目进度管理' , link:'/ch6-项目进度管理.md'},
             ]
         }
      ],
