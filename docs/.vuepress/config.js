@@ -29,6 +29,13 @@ module.exports = {
                 { text:'项目整合管理' , link:'/ch4-项目整合管理.md'},
                 { text:'项目范围管理' , link:'/ch5-项目范围管理.md'},
                 { text:'项目进度管理' , link:'/ch6-项目进度管理.md'},
+                { text:'项目成本管理' , link:'/ch7-项目成本管理.md'},
+                { text:'项目质量管理' , link:'/ch8-项目质量管理.md'},
+                { text:'项目资源管理' , link:'/ch9-项目资源管理.md'},
+                { text:'项目沟通管理' , link:'/ch10-项目沟通管理.md'},
+                { text:'项目风险管理' , link:'/ch11-项目风险管理.md'},
+                { text:'项目采购管理' , link:'/ch12-项目采购管理.md'},
+                { text:'项目相关方管理' , link:'/ch13-项目相关方管理.md'},
             ]
         }
      ],
